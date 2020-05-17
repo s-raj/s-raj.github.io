@@ -7,8 +7,8 @@ description: My Personal Blog
 
 # if it's an external image, update below for true
 # better with square images
-external-image: true
-picture: https://imam6g.am.files.1drv.com/y4m8oTsOUyM-tDYcmN2nsHxMoFL5_QxCkNyPITAjImrfIZ94nEjNBzFMvo52ZBpysmzkKCtYbGx9Yw2Ioc7zQTRvC5iV4qGEzeAK6C1zGCNgtb2R5g8JOM_gD9-lPiaED_dsLSXuBinzWLUolayfskve10E6IjikqNZKCaAGBYAiaDa9ON6va7CJihamrMmfQkB58T3_bNavc1Y6mSZ_t6gjg?width=4898&height=3265&cropmode=none
+external-image: false
+picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -53,18 +53,18 @@ github: s-raj
 email: jartarahs@gmail.com
 
 authors:
-  johndoe:
+  SR:
     name: Sharat Raj
     bio: A Man who travels the world eating noodles
     external-image: false
     picture: assets/images/profile.jpg
-    #twitter: johndoe
+    #twitter: sharatraj
 
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: large
+width: normal
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
