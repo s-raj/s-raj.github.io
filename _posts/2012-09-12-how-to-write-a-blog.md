@@ -5,8 +5,6 @@ category: blog
 date: 2016-02-24 22:44
 image: /assets/images/markdown.jpg
 headerImage: false
-tag:
-- blog
 star: true
 author: SR
 hidden: false
