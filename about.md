@@ -4,9 +4,7 @@ layout: page
 ---
 
 
-<p>This has to be filled. Coming soon..</p>
-
-<p>Yet another paragraph to be filled</p>
+<p>This page tells you a little bit about me.</p>
 
 <h2>Skills</h2>
 
