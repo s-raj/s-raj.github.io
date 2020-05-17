@@ -1,9 +1,9 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Sharat Raj
+bio: Passionate about almost everything
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: My Personal Blog
 
 # if it's an external image, update below for true
 # better with square images
@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://s-raj.in
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
