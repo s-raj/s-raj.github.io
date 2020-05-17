@@ -11,12 +11,11 @@ layout: page
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>TDD e Continuous Integration</li>
+	<li>Jekyll HTML Page</li>
 </ul>
 
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
+	<li><a href="https://github.com/">s-raj</a></li>
 </ul>
