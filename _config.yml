@@ -1,133 +1,211 @@
-# main text of home
-name: Sharat Raj
-bio: Passionate about almost everything
+# --- Basic options --- #
 
-# twitter summary info
-description: My Personal Blog
+# Name of website
+title: My HomePage
 
-# if it's an external image, update below for true
-# better with square images
-external-image: false
-picture: assets/images/profile.jpg
+# Short description of your site
+description: Welcome to my digital world
 
-# If you want to include your resume, set to true
-# and specify source (external or local).
-resume: false
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+# Your name to show in the footer
+author: Sharat Raj
 
-url: https://s-raj.in
-# your url: https://USERNAME.github.io
+# --- List of links in the navigation bar --- #
 
-permalink: /:title/
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+    - My Calendar: "https://s-raj.in/calendar" 
+  Author's home: "https://s-raj.in"
 
-# To enable google analytics, supply your token below
-analytics-google: 'UA-167045605-1'
+# --- Logo --- #
 
+# Image to show in the navigation bar - works best with a square image
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/assets/img/avatar-icon.png"
 
-# if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname: disqus_V7u418rU88 # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+# By default, the image is cut into a circle. You can disable this behaviour here.
+round-avatar: true
 
-# if you don't have any of social below, comment the line
-#facebook: myfacebook
-twitter: sharatraj7
-# instagram: myinstagram
-# pinterest: mypinterest
-linkedin: sharatraj
-# youtube: myyoutube
-# spotify: myspotify
-github: s-raj
-# gitlab: mygitlab
-# lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
-# quora: userquora
-# reddit: username
-# medium: medium
-# vimeo: myvimeo
-# lanyrd: mylanyrd
-email: jartarahs@gmail.com
-
-authors:
-  SR:
-    name: Sharat Raj
-    bio: An amateur web developer
-    external-image: false
-    picture: assets/images/profile.jpg
-    twitter: sharatraj7
+# If you want to have an image logo in the top-left corner instead of the title text,
+# then specify the following parameter
+#title-img: /path/to/image
 
 
-# do you want a larger site? change the option below
-# options: [normal, large] | default: normal
-# normal = 560px / large = 810px
-width: normal
+# --- Footer options --- #
 
-# if you do/don't need pagination, toggle 'enabled' between true/false below
-pagination:
-  enabled: false
-  sort_reverse: true # display recent posts first
-  title: ":title" # Changing this will mess up the header display logic
-  per_page: 5
-  permalink: "/:num/" # pagination link that will be appended
+# Select the social network links that you want to show in the footer.
+# Uncomment the links you want to show and add your information to each one.
+# If you don't want to show a link to an RSS feed, set rss to "false".
+social-network-links:
+  email: "jartarahs@gmail.com"
+#  facebook: deanattali
+  github: s-raj
+  twitter: sharatraj7
+  rss: true
+#  reddit: yourname
+  linkedin: sharatraj
+#  xing: yourname
+#  stackoverflow: "3943160/daattali"
+#  snapchat: deanat78
+#  instagram: deanat78
+#  youtube: user/deanat78
+#  spotify: yourname
+#  telephone: +14159998888
+#  steam: deanat78
+#  twitch: yourname
+#  yelp: yourname
+#  telegram: yourname
+#  calendly: yourname
 
-# if you don't need projects, comment the *projects* configs below
-projects: true
+# --- General options --- #
 
-# if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
+# Select which social network share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
 
-# do you want to show the "read time" of the posts?
-read-time: false
+# How to display the link to your website in the footer
+# Remove this if you don't want a link in the footer
+url-pretty: "s-raj.in"
 
-# do you want to show the "tags" inside the posts?
-show-tags: false
+# Create a "tags" index page and make tags on each post clickable
+link-tags: true
 
-# related posts inside a post?
-related: false
+# Excerpt Word Length - Truncates the excerpt to the specified number of words on the index page
+excerpt_length: 50
 
-# Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
+# --- Colours / background image --- #
 
-# show author block at the end of a post ?
-show-author: true
+# Personalize the colors in your website. Colour values can be any valid CSS colour
 
-# do you want some animations?
-animation: true
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-border-col: "#EAEAEA"
+page-col: "#FFFFFF"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
 
-# add default values to specific pages or layouts
+# Alternatively, the navbar, footer, and page background can be set to use background images
+# instead of colour
+
+#navbar-img: "/assets/img/bgimage.png"
+#footer-img: "/assets/img/bgimage.png"
+#page-img: "/assets/img/bgimage.png"
+
+# --- Web Statistics Section --- #
+
+# Fill in your Google Analytics gtag.js ID to track your website using gtag
+#gtag: ""
+
+# Fill in your Google Analytics ID to track your website using GA
+google_analytics: "UA-167045605-1"
+
+# Google Tag Manager ID
+#gtm: ""
+
+# Matomo (aka Piwik) Web statistics
+# Uncomment the following section to enable Matomo. The opt-out parameter controls
+# whether or not you want to allow users to opt out of tracking.
+#matomo:
+#  site_id: "9"
+#  uri: "demo.wiki.pro"
+#  opt-out: true
+
+# --- Comments --- #
+
+# To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
+#disqus: "disqus_V7u418rU88"
+
+# To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
+#fb_comment_id: ""
+
+# To use Utterances comments: (0) uncomment the following section, (1) fill in
+# "repository" (make sure the repository is public), (2) Enable Issues in your repository,
+# (3) Install the Utterances app in your repository https://github.com/apps/utterances
+# See more details about the parameters below at https://utteranc.es/
+#utterances:
+#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  issue-term: title   # Mapping between blog posts and GitHub issues
+#  theme: github-light # Utterances theme
+#  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
+
+# To use Staticman comments, first invite `staticmanlab` as a collaborator to your repository and
+# accept the invitation by going to `https://staticman3.herokuapp.com/v3/connect/github/<username>/<repo-name>`.
+# Then uncomment the following section and fill in "repository", "branch", and "endpoint".
+# If you want to use reCaptcha for staticman (optional for spam protection), then fill
+# in the "siteKey" and "secret" parameters below and also in `staticman.yml`.
+# See more details at https://staticman.net/
+#staticman:
+#  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+#  endpoint   : # URL of your own deployment, with a trailing slash (will fallback to a public GitLab instance) eg. https://<your-api>/v3/entry/github/
+#  reCaptcha:
+#    siteKey  : # Use your own site key, you need to apply for one on Google
+#    secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+
+# --- Misc --- #
+
+# Character used to separate site title and description in HTML document title
+# and RSS feed title
+title-separator: "-"
+
+# Ruby Date Format to show dates of posts
+date_format: "%B %-d, %Y"
+
+# Facebook App ID
+#fb_app_id: ""
+
+
+# --- You don't need to touch anything below here (but you can if you want) --- #
+
+# Output options (more information on Jekyll's site)
+timezone: "America/Vancouver"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
+kramdown:
+  input: GFM
+
+# Default YAML values (more information on Jekyll's site)
 defaults:
-  - scope:
-      path: "" # an empty string here means all files in the project
-      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "posts"
     values:
-      # setting all post to not hidden by default,
-      # can be overridden in the front matter for a specific post
-      hidden: false
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+      readtime: false # add estimated reading time on all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
+
+# Exclude these files from production site
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-admin
-  - jekyll-paginate-v2
+  - jekyll-paginate
+  - jekyll-sitemap
 
-
-compress_html:
-  ignore:
-    envs:
-      - development
-      - stage
-
-exclude:
-  [
-    "travis.sh",
-    "Gemfile",
-    "Gemfile.lock",
-    "node_modules",
-    "vendor",
-  ]
-
-
+# Beautiful Jekyll / Dean Attali
+# 2fc73a3a967e97599c9763d05e564189
