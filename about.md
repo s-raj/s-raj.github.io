@@ -17,4 +17,3 @@ layout: page
 	<li><a href="https://github.com/">s-raj</a></li>
 </ul>
 
-<iframe src="https://onedrive.live.com/embed?cid=434EA3465C335360&resid=434EA3465C335360%2135962&authkey=ABxPG1FaHLulhRE" width="320" height="320" frameborder="0" scrolling="no" ></iframe>
