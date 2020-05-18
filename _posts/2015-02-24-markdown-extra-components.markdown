@@ -13,12 +13,7 @@ hidden: true
 author: jamesfoster
 description: Markdown summary with different options
 ---
-<img src="https://eps4ma.am.files.1drv.com/y4m33IWY1-k9PTZy5Os3thjxk9dgnt4RX3lMLNi-DNEC1sgskEmIXDCYD0DLEh4BrSocBaqtbego0gMWuEOS0koaHMhn_BVy1-1ZtpBSvGOvsGbqsk6Cx1GOb62Sa0k4rWyGFYRFLTMehb4qrZWo_obVPbZCcvHF6oxC_MSfHS21w5Vy-qeIAaQXs5EfhqEJEzaW2uHAv6e6mFktqLEV0cMUQ?width=660&height=496&cropmode=none" width="660" height="496" />
 
-
-<img src="https://fos5ma.am.files.1drv.com/y4mYojwQXWAPOFoEivp57qcCEiESalnT_BK1DyrOT8kJUPky48Hop5GdEUJW7jLlGCpbGsPLRtlYDle9isrmMM8AJhLll9sD03_zt7RJcMUXrxyDNvwhMgUdqkShXSGqmZNVW5C2osvN_kRsS_8h6-mFmjutDTMEBDn4kTKSC6IgYNd6VWd58IaLFL39NXxw6D8WOvDISqF5avEUVYIFTPA3Q?width=256&height=118&cropmode=none" width="256" height="118" />
-
-<iframe src="https://onedrive.live.com/embed?cid=434EA3465C335360&resid=434EA3465C335360%2135580&authkey=AFH32AxSGHhdBbE" width="180" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
 ## Summary:
 
 You can pick as item to see how to apply in markdown.
@@ -56,57 +51,6 @@ Like the [Medium](https://medium.com/) component.
 
 **Image** on the left and **Text** on the right:
 
-{% highlight html %}
-<div class="side-by-side">
-    <div class="toleft">
-        <img class="image" src="https://1drv.ms/u/s!AmBTM1xGo05DgpYD3hCX-ql2x-fFPA" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
-    </div>
-
-    <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-</div>
-{% endhighlight %}
-
-<div class="side-by-side">
-    <div class="toleft">
-        <img class="image" src="https://1drv.ms/u/s!AmBTM1xGo05DgpYD3hCX-ql2x-fFPA" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
-    </div>
-
-    <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-</div>
-
-**Text** on the left and **Image** on the right:
-
-{% highlight html %}
-<div class="side-by-side">
-    <div class="toleft">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-
-    <div class="toright">
-        <img class="image" src="https://1drv.ms/u/s!AmBTM1xGo05DgpYD3hCX-ql2x-fFPA" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
-    </div>
-</div>
-{% endhighlight %}
-
-<div class="side-by-side">
-    <div class="toleft">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-
-    <div class="toright">
-        <img class="image" src="https://1drv.ms/u/s!AmBTM1xGo05DgpYD3hCX-ql2x-fFPA" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
-    </div>
-</div>
-
----
 
 ## Star
 
@@ -154,21 +98,6 @@ You can add Gists from github.
 
 ---
 
-## Codepen
-
-You can add Pens from Codepen.
-
-{% highlight html %}
-<p data-height="268" data-theme-id="0" data-slug-hash="gfdDu" data-default-tab="result" data-user="chriscoyier" class='codepen'>
-    See the Pen <a href='https://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='https://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='https://codepen.io'>CodePen</a>.
-</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-{% endhighlight %}
-
-<p data-height="268" data-theme-id="0" data-slug-hash="gfdDu" data-default-tab="result" data-user="chriscoyier" class='codepen'>See the Pen <a href='https://codepen.io/chriscoyier/pen/gfdDu/'>Crappy Recreation of the Book Cover of *The Flame Alphabet*</a> by Chris Coyier (<a href='https://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='https://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-
----
 
 ## Slideshare
 
@@ -188,15 +117,3 @@ Do you want some videos? Youtube, Vimeo or Vevo? Copy the embed code and paste o
 
 **Example**
 
-{% highlight html %}
-<iframe src="https://onedrive.live.com/embed?cid=434EA3465C335360&resid=434EA3465C335360%2135962&authkey=ABxPG1FaHLulhRE" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
-{% endhighlight %}
-
-<iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
-
-[1]: https://daringfireball.net/projects/markdown/
-[2]: https://www.fileformat.info/info/unicode/char/2163/index.htm
-[3]: https://www.markitdown.net/
-[4]: https://daringfireball.net/projects/markdown/basics
-[5]: https://daringfireball.net/projects/markdown/syntax
-[6]: https://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg
