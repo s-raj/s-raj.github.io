@@ -13,6 +13,4 @@ description: My first post
 
 # List of Bookmarks
 
-**Hello world**, this is my first Jekyll blog post.
-
 * Interesing Linux commands [Click here](https://linuxhandbook.com)
