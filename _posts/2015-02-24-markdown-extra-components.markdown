@@ -184,7 +184,7 @@ Do you want some videos? Youtube, Vimeo or Vevo? Copy the embed code and paste o
 **Example**
 
 {% highlight html %}
-<iframe width="560" height="310" src="https://onedrive.live.com/embed?cid=434EA3465C335360&resid=434EA3465C335360%2135962&authkey=ABxPG1FaHLulhRE" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://onedrive.live.com/embed?cid=434EA3465C335360&resid=434EA3465C335360%2135962&authkey=ABxPG1FaHLulhRE" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
 {% endhighlight %}
 
 <iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
