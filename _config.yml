@@ -22,7 +22,7 @@ url: https://s-raj.in
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'UA-167045605-1'
 
 
 # if you don't want comments in your posts, leave categories empty
