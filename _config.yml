@@ -52,7 +52,7 @@ email: jartarahs@gmail.com
 authors:
   SR:
     name: Sharat Raj
-    bio: A Man who travels the world eating noodles
+    bio: A amateur web developer
     external-image: false
     picture: assets/images/profile.jpg
     twitter: sharatraj7
@@ -79,7 +79,7 @@ about: true
 blog: true
 
 # do you want to show the "read time" of the posts?
-read-time: true
+read-time: false
 
 # do you want to show the "tags" inside the posts?
 show-tags: false
