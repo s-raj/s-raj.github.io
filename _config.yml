@@ -1,10 +1,10 @@
 # --- Basic options --- #
 
 # Name of website
-title: My HomePage
+title: My Wall
 
 # Short description of your site
-description: Welcome to my digital world
+description: Welcome to my digital wall
 
 # Your name to show in the footer
 author: Sharat Raj
@@ -12,12 +12,12 @@ author: Sharat Raj
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
     - My Calendar: "calendar" 
-  Author's home: "https://s-raj.in"
+#  Author's home: "https://s-raj.in"
+  About Me: "aboutme"
 
 # --- Logo --- #
 
