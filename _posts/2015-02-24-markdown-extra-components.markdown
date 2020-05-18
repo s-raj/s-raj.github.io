@@ -66,7 +66,7 @@ Like the [Medium](https://medium.com/) component.
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
+        <img class="image" src="https://1drv.ms/u/s!AmBTM1xGo05DgpYD3hCX-ql2x-fFPA" alt="Alt Text">
         <figcaption class="caption">Photo by John Doe</figcaption>
     </div>
 
