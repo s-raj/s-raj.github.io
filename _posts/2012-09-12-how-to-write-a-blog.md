@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "My Bookmarks"
 category: blog
 date: 2016-02-24 22:44
 image: /assets/images/markdown.jpg
@@ -11,8 +11,8 @@ hidden: false
 description: My first post
 ---
 
-# Welcome
+# List of Bookmarks
 
 **Hello world**, this is my first Jekyll blog post.
 
-I hope you like it!
+* Interesing Linux commands [Click here](https://linuxhandbook.com)
