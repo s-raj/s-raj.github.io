@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About me
-subtitle: Who am I?
 ---
 
 My name is Sharat Raj. I am an Engineer by profession. I work in Automotive sector and I am currently contributing my bit in the global pursuit of making Autonomous commercial vehicles a global reality.   
