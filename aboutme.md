@@ -1,16 +1,10 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Who am I?
 ---
 
-My name is Sharat Raj. I have the following qualities:
+My name is Sharat Raj. I am an Engineer by profession. I work in Automotive space and I am currently contributing my bit in the global pursuit of making Autonomous commercial vehicles a reality.   
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+I come from a beautiful place called Ponnani on the banks of the Arabian sea where the Arabian sea, Bharathapuzha and Biyyam backwaters meet. 
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
