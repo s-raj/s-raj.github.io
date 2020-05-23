@@ -12,13 +12,13 @@ author: Sharat Raj
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Resources:
-    - My Bookmarks: "https://mypc.s-raj.in/index.php/apps/bookmarks/public/rest/v2/bookmark?folder=-1&format=rss&page=-1" 
+  Quick Links:
+    - My Bookmarks: "https://mypc.s-raj.in/index.php/apps/bookmarks/" 
     - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
 #  Author's home: "https://s-raj.in"
-  About Me: "aboutme"
   My Cloud: "https://mypc.s-raj.in"
+  About Me: "aboutme"
+
 
 # --- Logo --- #
 
