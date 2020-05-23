@@ -13,7 +13,7 @@ author: Sharat Raj
 
 navbar-links:
   Resources:
-    - My Calendar: "https://mypc.s-raj.in/remote.php/dav/calendars/sr/outlooklivecom-1/" 
+    - My Bookmarks: "https://mypc.s-raj.in/index.php/apps/bookmarks/public/rest/v2/bookmark?folder=-1&format=rss&page=-1" 
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
 #  Author's home: "https://s-raj.in"
