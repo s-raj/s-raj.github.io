@@ -12,7 +12,7 @@ hidden: true
 
 
 
-<video width="60%" controls>
+<video width="70%" controls>
 
 <source src="https://onedrive.live.com/download?cid=434EA3465C335360&resid=434EA3465C335360%2135962&authkey=AOOSoYnOGTXdO4s" type="video/mp4">
 
