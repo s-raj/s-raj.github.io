@@ -13,9 +13,9 @@ author: Sharat Raj
 
 navbar-links:
   Resources:
+    - My Calendar: "https://mypc.s-raj.in/remote.php/dav/calendars/sr/outlooklivecom-1/" 
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-    - My Calendar: "calendar" 
 #  Author's home: "https://s-raj.in"
   About Me: "aboutme"
   My Cloud: "https://mypc.s-raj.in"
