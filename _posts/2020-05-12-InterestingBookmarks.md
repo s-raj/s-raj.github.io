@@ -4,6 +4,8 @@ title: My Bookmarks
 subtitle: Interesting links
 tags: [links]
 comments: true
+visible: false
+hidden: true
 ---
 
 * Interesing Linux commands [Click here](https://linuxhandbook.com)
