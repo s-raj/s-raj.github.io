@@ -14,7 +14,7 @@ author: Sharat Raj
 navbar-links:
   SR Links (VPN Internal):
     - My Raspberry Webmin: "https://mypi.s-raj.in:10000" 
-    - My Raspberry Dupicati: "http://mypi.s-raj.in:8200"
+    - My Raspberry Duplicati: "http://mypi.s-raj.in:8200"
     - My Cloud: "https://mycloud.s-raj.in"
     - My PC Duplicati: "http://pcduplicati.s-raj.in:8200"
 #   - Beautiful Jekyll: "https://beautifuljekyll.com"
