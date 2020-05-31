@@ -10,12 +10,5 @@ hidden: true
 
 
 
+<iframe width="560" height="315" src="https://youtu.be/rPIDxoZE5IQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-<video width="70%" controls>
-
-<source src="https://youtu.be/rPIDxoZE5IQ" type="video/mp4">
-
-Your browser does not support the video tag.
-
-</video>
