@@ -8,11 +8,4 @@ visible: false
 hidden: true
 ---
 
-
-<!-- blank line -->
-<figure class="video_container">
-<iframe src="https://www.youtube.com/embed/uq2s69A77vk" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-<!-- blank line -->
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uq2s69A77vk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
