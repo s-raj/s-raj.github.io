@@ -2,7 +2,7 @@
 layout: post
 title: Corona days Part 2
 subtitle: Insanity continues
-tags: [links]
+tags: [fun]
 comments: true
 visible: false
 hidden: true
