@@ -2,7 +2,7 @@
 layout: post
 title: Corona Days Part 1
 subtitle: This is when the fine line between sanity and insanity blurs
-tags: [links]
+tags: [fun]
 comments: true
 visible: false
 hidden: true
