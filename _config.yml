@@ -12,11 +12,14 @@ author: Sharat Raj
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Quick Links:
-    - My Bookmarks: "https://mypc.s-raj.in/index.php/apps/bookmarks/" 
+  SR Links (VPN Internal):
+    - My Raspberry Webmin: "http://192.168.178.29:10000" 
+    - My Raspberry Dupicati: "http://192.168.178.29:8200"
+    - My PC Cloud: "https://192.168.178.20"
+    - My PC Duplicati: "https://192.168.178.20:8200"
 #   - Beautiful Jekyll: "https://beautifuljekyll.com"
 #  Author's home: "https://s-raj.in"
-  My Cloud: "https://mypc.s-raj.in"
+  My Wordpress: "https://mypc.s-raj.in" 
   About Me: "aboutme"
 
 
