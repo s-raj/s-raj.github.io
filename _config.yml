@@ -13,10 +13,10 @@ author: Sharat Raj
 
 navbar-links:
   SR Links (VPN Internal):
-    - My Raspberry Webmin: "https://192.168.178.29:10000" 
-    - My Raspberry Dupicati: "http://192.168.178.29:8200"
-    - My PC Cloud: "https://192.168.178.20"
-    - My PC Duplicati: "http://192.168.178.20:8200"
+    - My Raspberry Webmin: "https://raspberrypi.s-raj.in:10000" 
+    - My Raspberry Dupicati: "http://raspberrypi.s-raj.in:8200"
+    - My PC Cloud: "https://laptop.s-raj.in"
+    - My PC Duplicati: "http://laptop.s-raj.in:8200"
 #   - Beautiful Jekyll: "https://beautifuljekyll.com"
 #  Author's home: "https://s-raj.in"
   My Wordpress: "https://mypc.s-raj.in" 
