@@ -18,7 +18,8 @@ navbar-links:
     - Nextcloud (VPN): "https://mycloud.s-raj.in"
     - PC Duplicati (VPN): "http://pcduplicati.s-raj.in:8200"
   My Projects
-    - Personalised mail: "http://s-raj.in/PersonalisedNewsEmail"
+    - Personalised mail: "https://s-raj.in/PersonalisedNewsEmail"
+    - Twitter Bot: "https://s-raj.in/SRTwiBot"
 #   - Beautiful Jekyll: "https://beautifuljekyll.com"
 #  Author's home: "https://s-raj.in"
   My Blog: "https://blog.s-raj.in" 
