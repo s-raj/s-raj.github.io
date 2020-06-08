@@ -12,11 +12,13 @@ author: Sharat Raj
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  SR Links (VPN Internal):
-    - My Raspberry Webmin: "https://mypi.s-raj.in:10000" 
-    - My Raspberry Duplicati: "http://mypi.s-raj.in:8200"
-    - My Cloud: "https://mycloud.s-raj.in"
-    - My PC Duplicati: "http://pcduplicati.s-raj.in:8200"
+  My Links:
+    - Raspberry Webmin (VPN): "https://mypi.s-raj.in:10000" 
+    - Raspberry Duplicati (VPN): "http://mypi.s-raj.in:8200"
+    - Nextcloud (VPN): "https://mycloud.s-raj.in"
+    - PC Duplicati (VPN): "http://pcduplicati.s-raj.in:8200"
+  My Projects
+    - Personalised mail: "http://s-raj.in/PersonalisedNewsEmail"
 #   - Beautiful Jekyll: "https://beautifuljekyll.com"
 #  Author's home: "https://s-raj.in"
   My Blog: "https://blog.s-raj.in" 
