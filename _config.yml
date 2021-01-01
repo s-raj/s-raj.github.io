@@ -4,7 +4,7 @@
 title: My Home
 
 # Short description of your site
-description: Welcome to my digital wall
+description: Welcome to my Digital Wall
 
 # Your name to show in the footer
 author: Sharat Raj
@@ -47,7 +47,7 @@ social-network-links:
   email: "jartarahs@gmail.com"
 #  facebook: deanattali
   github: s-raj
-  twitter: sharatraj7
+#  twitter: sharatraj7
   rss: true
 #  reddit: yourname
   linkedin: sharatraj
