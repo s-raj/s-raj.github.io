@@ -15,6 +15,7 @@ navbar-links:
   My Links:
     - Grafana Dashboard: "http://vpn.s-raj.in:3000"
     - My Slack channel: "https://srpi-interstellar.slack.com"
+    - Grafana Dashboard (new): "http://adzyaes68xtta7un.myfritz.net:3000"
 #    - Webmin (VPN): "https://mypi.s-raj.in:10000" 
 #    - Duplicati (VPN): "http://mypi.s-raj.in:8200"
   My Projects:
