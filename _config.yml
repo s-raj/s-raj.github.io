@@ -14,7 +14,7 @@ author: Sharat Raj
 navbar-links:
   My Links:
     - Grafana Dashboard: "http://vpn.s-raj.in:3000"
-    - My Slack channel: "srpi-interstellar.slack.com"
+    - My Slack channel: "https://srpi-interstellar.slack.com"
 #    - Webmin (VPN): "https://mypi.s-raj.in:10000" 
 #    - Duplicati (VPN): "http://mypi.s-raj.in:8200"
   My Projects:
