@@ -13,10 +13,10 @@ author: Sharat Raj
 
 navbar-links:
   My Links:
-#    - Webmin (VPN): "https://mypi.s-raj.in:10000" 
-#    - Duplicati (VPN): "http://mypi.s-raj.in:8200"
     - Grafana Dashboard: "http://vpn.s-raj.in:3000"
     - My Slack channel: "srpi-interstellar.slack.com"
+#    - Webmin (VPN): "https://mypi.s-raj.in:10000" 
+#    - Duplicati (VPN): "http://mypi.s-raj.in:8200"
   My Projects:
     - Personalised News mail: "https://s-raj.in/PersonalisedNewsEmail"
     - Twitter Bot: "https://s-raj.in/SRTwiBot"
