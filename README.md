@@ -1,37 +1,197 @@
-# Beautiful Jekyll
+# Sharat Raj's Personal Website
 
-[![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fs-raj.github.io)](https://s-raj.github.io)
+[![GitHub](https://img.shields.io/github/license/s-raj/s-raj.github.io)](LICENSE)
 
-> *Copyright 2020 [Dean Attali](https://deanattali.com)*
+Welcome to the repository for my personal website and blog, hosted at [s-raj.github.io](https://s-raj.github.io). This site serves as my digital presence, showcasing my work, thoughts, and projects.
 
-**Beautiful Jekyll** is a ready-to-use template to help you create a beautiful website quickly. Perfect for personal sites, blogs, or simple project websites.  [Check out a demo](https://beautifuljekyll.com) of what you'll get after just two minutes.  You can also look at [my personal website](https://deanattali.com) to see it in use, or see examples of websites other people created using this theme [below](#showcased-users-success-stories).
+## About
 
-**If you enjoy this theme, please consider [supporting me](http://paypal.me/daattali) or [sponsoring me](https://github.com/sponsors/daattali) for developing and maintaining it for over 5 years.**
+This is a personal website built with [Jekyll](https://jekyllrb.com/) and the [Beautiful Jekyll](https://beautifuljekyll.com/) theme. The site is hosted on GitHub Pages and automatically deployed when changes are pushed to the repository.
 
-<p align="center">
-  <a style="display: inline-block;" href="https://paypal.me/daattali">
-    <img height="40" src="https://camo.githubusercontent.com/0e9e5cac101f7093336b4589c380ab5dcfdcbab0/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f74776f6c66736f6e2f70617970616c2d6769746875622d627574746f6e40312e302e302f646973742f627574746f6e2e737667" />
-  </a>&nbsp;&nbsp;
-  <a style="display: inline-block;" href="https://github.com/sponsors/daattali">
-    <img height="40" src="https://i.imgur.com/034B8vq.png" />
-  </a>
-</p>
+**Website Owner:** Sharat Raj  
+**Location:** Ponnani, Kerala (Arabian Sea coast)  
+**Profession:** Engineer in the Automotive sector, contributing to autonomous commercial vehicles
 
-## Table of contents
+## Website Structure
 
-- [Features](#features)
-- [**Build your website in 3 steps**](#build-your-website-in-3-steps)
-- [Add your own content](#add-your-own-content)
-- [Customizing parameters for each page](#customizing-parameters-for-each-page)
-- [Supported parameters](#supported-parameters)
-- [Showcased users (success stories!)](#showcased-users-success-stories)
-- [FAQ and support](#faq-and-support)
-- [Credits and contributions](#credits)
+### Main Pages
 
-# Features
+- **Home** (`index.html`) - Landing page with blog posts feed
+- **About Me** (`aboutme.md`) - Personal introduction and background
+- **Calendar** (`calendar.md`) - Personal calendar integration
+- **Tags** (`tags.html`) - Blog posts organized by tags
 
-- **SIMPLE**: The primary goal of Beautiful Jekyll is to allow literally *anyone* to create a website in a few minutes.
-- **Modern**: Uses the latest best practices and technologies to achieve nearly perfect scores on Google Chrome's Audit. 
+### Blog Posts
+
+Blog posts are located in the `_posts` directory and follow Jekyll's naming convention: `YYYY-MM-DD-title.md`. Current posts include:
+
+- Corona Days series documenting experiences during the pandemic
+
+### Configuration
+
+The site is configured through `_config.yml` with the following key settings:
+
+- **Site Title:** My Home
+- **Description:** Welcome to my Digital Wall
+- **Author:** Sharat Raj
+- **Domain:** s-raj.in
+- **Google Analytics:** UA-167045605-1
+
+### Navigation Links
+
+The site includes links to:
+
+- Slack channel for communication
+- Grafana Dashboard for monitoring
+- Personal projects:
+  - Personalised News Email
+  - Twitter Bot
+- Personal blog at blog.s-raj.in
+
+## Technology Stack
+
+- **Static Site Generator:** Jekyll
+- **Theme:** Beautiful Jekyll
+- **Hosting:** GitHub Pages
+- **Domain:** Custom domain (s-raj.in)
+- **Analytics:** Google Analytics
+- **Frontend:** Bootstrap 4, HTML5, CSS3, JavaScript
+
+## Directory Structure
+
+```
+.
+├── _config.yml           # Site configuration
+├── _data/                # Data files for Jekyll
+├── _includes/            # Reusable HTML components
+├── _layouts/             # Page layouts
+├── _posts/               # Blog posts
+├── assets/               # Static assets (CSS, JS, images)
+│   ├── css/
+│   ├── img/
+│   └── js/
+├── docs/                 # Documentation
+├── aboutme.md            # About page
+├── calendar.md           # Calendar page
+├── index.html            # Home page
+├── tags.html             # Tags index
+└── README.md             # This file
+```
+
+## Local Development
+
+### Prerequisites
+
+- Ruby (version 2.5 or higher)
+- RubyGems
+- GCC and Make
+
+### Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/s-raj/s-raj.github.io.git
+   cd s-raj.github.io
+   ```
+
+2. Install dependencies:
+   ```bash
+   bundle install
+   ```
+
+3. Run the local server:
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+4. Visit `http://localhost:4000` in your browser
+
+### Development Tips
+
+- Blog posts must include YAML front matter
+- Follow the naming convention `YYYY-MM-DD-title.md` for posts
+- Images should be placed in `assets/img/`
+- Test locally before pushing changes
+
+## Adding Content
+
+### Creating a New Blog Post
+
+1. Create a new file in `_posts/` with the format `YYYY-MM-DD-post-title.md`
+2. Add YAML front matter at the top:
+   ```yaml
+   ---
+   layout: post
+   title: Your Post Title
+   subtitle: Optional subtitle
+   tags: [tag1, tag2]
+   comments: true
+   ---
+   ```
+3. Write your content in Markdown
+4. Commit and push to deploy
+
+### Adding a New Page
+
+1. Create a new `.md` or `.html` file in the root directory
+2. Add YAML front matter:
+   ```yaml
+   ---
+   layout: page
+   title: Page Title
+   ---
+   ```
+3. Add the page to navigation in `_config.yml` if desired
+
+## Deployment
+
+The site is automatically deployed to GitHub Pages when changes are pushed to the `master` branch. GitHub Actions handles the build process.
+
+**Live Site:** [https://s-raj.github.io](https://s-raj.github.io)  
+**Custom Domain:** [https://s-raj.in](https://s-raj.in)
+
+## Customization
+
+To customize the site appearance and behavior, edit `_config.yml`. Key customizable features:
+
+- Site colors and theme
+- Navigation links
+- Social media links
+- Avatar image
+- Google Analytics
+- Comments (Disqus, Utterances, etc.)
+
+For more detailed theme customization options, see [docs/THEME.md](docs/THEME.md).
+
+## Contributing
+
+While this is a personal website, suggestions and bug reports are welcome! Please feel free to:
+
+1. Open an issue for bugs or suggestions
+2. Submit a pull request for fixes
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
+## License
+
+The website theme (Beautiful Jekyll) is licensed under the MIT License - see [LICENSE](LICENSE) for details.
+
+The content (blog posts, personal information, images) is copyrighted by Sharat Raj.
+
+## Contact
+
+- **Email:** jartarahs@gmail.com
+- **GitHub:** [@s-raj](https://github.com/s-raj)
+- **LinkedIn:** [sharatraj](https://www.linkedin.com/in/sharatraj)
+- **Website:** [s-raj.in](https://s-raj.in)
+- **Blog:** [blog.s-raj.in](https://blog.s-raj.in)
+
+## Acknowledgments
+
+- Theme by [Dean Attali](https://deanattali.com) - [Beautiful Jekyll](https://beautifuljekyll.com/)
+- Hosted on [GitHub Pages](https://pages.github.com/)
+- Built with [Jekyll](https://jekyllrb.com/) 
 - **Mobile-first**: Designed to look great on both large-screen and small-screen (mobile) devices.   
 - **Highly customizable**: Many personalization settings such as changing the background colour/image, adding a logo.  
 - **Flexible usage**: Use Beautiful Jekyll directly on GitHub or using a Ruby gem - choose the best [development method](#build-your-website-in-3-steps) for you.  
