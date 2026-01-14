@@ -191,19 +191,7 @@ The content (blog posts, personal information, images) is copyrighted by Sharat 
 
 - Theme by [Dean Attali](https://deanattali.com) - [Beautiful Jekyll](https://beautifuljekyll.com/)
 - Hosted on [GitHub Pages](https://pages.github.com/)
-- Built with [Jekyll](https://jekyllrb.com/)
-- [**Build your website in 3 steps**](#build-your-website-in-3-steps)
-- [Add your own content](#add-your-own-content)
-- [Customizing parameters for each page](#customizing-parameters-for-each-page)
-- [Supported parameters](#supported-parameters)
-- [Showcased users (success stories!)](#showcased-users-success-stories)
-- [FAQ and support](#faq-and-support)
-- [Credits and contributions](#credits)
-
-# Features
-
-- **SIMPLE**: The primary goal of Beautiful Jekyll is to allow literally *anyone* to create a website in a few minutes.
-- **Modern**: Uses the latest best practices and technologies to achieve nearly perfect scores on Google Chrome's Audit. 
+- Built with [Jekyll](https://jekyllrb.com/) 
 - **Mobile-first**: Designed to look great on both large-screen and small-screen (mobile) devices.   
 - **Highly customizable**: Many personalization settings such as changing the background colour/image, adding a logo.  
 - **Flexible usage**: Use Beautiful Jekyll directly on GitHub or using a Ruby gem - choose the best [development method](#build-your-website-in-3-steps) for you.  
